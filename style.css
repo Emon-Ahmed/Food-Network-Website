@@ -65,11 +65,13 @@ p{
 
 /* About Section Start */
 .about{
-    display: flex;
     background-image: url(img/7.png);
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.flex{
+    display: flex;
 }
 .about-img{
     width: 50%;
