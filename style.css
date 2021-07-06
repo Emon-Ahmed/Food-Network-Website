@@ -80,7 +80,7 @@ p{
     width: 338px;
     height: 536px;
     margin-top: 64px;
-    margin-left: 200px;
+    margin-left: 100px;
 }
 .about-content{
     width: 50%;
@@ -111,7 +111,7 @@ p{
     display: flex;
 }
 .recipies-content{
-    width: 706px;
+    width: 720px;
     margin: auto;
 }
 .recipies-content h1{
