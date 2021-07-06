@@ -151,16 +151,16 @@ p{
 .recipies{
     display: flex;
 }
-.recipies-content{
+.shop-content, .recipies-content{
     width: 720px;
     margin: auto;
 }
-.recipies-content h1{
+.recipies-content h1, .shop-content h1{
     font-size: 36px;
     color:#676767;
     text-align: center;
 }
-.recipies-content p{
+.recipies-content p, .shop-content p{
     color:#252525;
     text-align: center;
     margin-top: 30px;
@@ -186,6 +186,35 @@ p{
 .recipies-blog p{
     color: #18191F;
     margin-bottom: 34px;
+}
+
+/* Extra Section (Feature Products) Start */
+.shop{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.shop-bar{
+    display: flex;
+}
+.checked{
+    color: orange;
+}
+.products{
+    display: flex;
+    padding: 25px 20px;
+    width: 360px;
+    border-radius: 5px;
+    margin: 25px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.products img{
+   width: 64px;
+   margin-right: 18px;
+}
+.product-content p{
+    color: #575757;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 /* Follower Section Start */
