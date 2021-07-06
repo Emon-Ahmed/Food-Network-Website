@@ -30,7 +30,6 @@ p{
     border-radius: 50px;
     text-decoration: none;
 }
-/* Basic CSS End */
 
 /* Banner Section Start */
 .banner-content{
@@ -50,7 +49,7 @@ p{
     font-weight: 500;
     margin-bottom: 50px;
 }
-.banner-content span{
+.banner-content span, #footer-color-text{
     background: -webkit-linear-gradient(45deg,#FBA24F, #FF1E1E);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -59,9 +58,8 @@ p{
     margin-top: 82px;
 }
 .banner-img img{
-    width: 100%;
+    width: 110%;
 }
-/* Banner Section End */
 
 /* About Section Start */
 .about{
@@ -85,23 +83,17 @@ p{
 .about-content{
     width: 50%;
     margin-top: 127px;
-
 }
 .about-content h2{
-    font-style: 700;
-    font-size: 40px;
     color: #707070;
 }
 .about-content p{
     font-family: 'Manrope', sans-serif;
     color:#18191F;
-    font-size: 18px;
     margin-top: 32px;
     margin-bottom: 90px;
     margin-right: 195px;
 }
-/* About Section End */
-
 
 /* Recipies Section Start */
 .recipies-section{
@@ -116,13 +108,10 @@ p{
 }
 .recipies-content h1{
     font-size: 36px;
-    font-weight: 700;
     color:#676767;
     text-align: center;
 }
 .recipies-content p{
-    font-size: 18px;
-    font-weight: 400;
     color:#252525;
     text-align: center;
     margin-top: 30px;
@@ -134,7 +123,6 @@ p{
     width: 377px;
     padding: 20px;
     border-radius: 20px;
-
 }
 .recipies-blog img{
    width: 100%;
@@ -148,12 +136,8 @@ p{
 }
 .recipies-blog p{
     color: #18191F;
-    font-size: 18;
-    font-weight: 400;
     margin-bottom: 34px;
 }
-/* Recipies Section End */
-
 
 /* Follower Section Start */
 .follower{
@@ -175,14 +159,12 @@ p{
 }
 .follower-box h1{
     font-size: 48px;
-    font-weight: 700;
     color: #18191F
 }
 .follower-box p {
     font-size: 16px;
     color: #18191F
 }
-/* Follower Section End */
 
 /* Footer Section Start */
 .footer{
@@ -199,11 +181,6 @@ p{
     font-weight: 900;
     text-transform: uppercase;
     padding: 37px;
-}
-#footer-color-text{
-    background: -webkit-linear-gradient(45deg,#FBA24F, #FF1E1E);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 #footer-text{
     color: #5B5B5B!important;
